@@ -1,0 +1,25 @@
+{
+  "name": "to_do_list_typescript",
+  "version": "1.0.0",
+  "description": "to-do list in typescript and angular",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc --sourcemap --out js/Application.js js/_all.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragMittal/to_do_list_typescript.git"
+  },
+  "author": "CHG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiragMittal/to_do_list_typescript/issues"
+  },
+  "homepage": "https://github.com/ChiragMittal/to_do_list_typescript#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "definitely-typed-angular": "^1.0.1",
+    "typescript": "^2.8.1"
+  }
+}
