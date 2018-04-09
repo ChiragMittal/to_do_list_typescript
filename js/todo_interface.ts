@@ -4,6 +4,11 @@ module todo{
         todos : TodoItem[] ,
         newTodo : string ,
         editedTodo : TodoItem ,
-        vm : TodoCtrl
+        vm : TodoCtrl,
+        remainingCount : number,
+        completeCount : number ,
+        allChecked : boolean,
+        originalTodo : TodoItem,
+        
     }
 }
