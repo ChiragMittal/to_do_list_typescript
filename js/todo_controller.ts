@@ -19,12 +19,12 @@ module todo {
             $scope.editedTodo = null ;
             $scope.vm = this;
 
-            $scope.$watch('todos', () => this.onTodos(), true);
+            $scope.$watch('todo', () => this.todosCount(), true);
 
         }
 
-        onTodos(){
-            
+        todosCount(){
+
         }
 
         
