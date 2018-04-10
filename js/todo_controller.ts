@@ -1,3 +1,4 @@
+/// <reference path='./_all.ts' />
 
 module todo {
     export class TodoCtrl {
@@ -71,7 +72,7 @@ module todo {
         }
 
         markall (todoItem : TodoItem){
-            this.todos.forEach(todoItem => { todoItem.completed = completed; });
+            this.todos.forEach(todoItem => { todoItem.completed  });
         }
 
         

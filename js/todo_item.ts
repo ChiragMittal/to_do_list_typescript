@@ -1,3 +1,4 @@
+/// <reference path='./_all.ts' />
 
 module todo{
     export class TodoItem{

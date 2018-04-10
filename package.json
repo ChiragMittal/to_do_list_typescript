@@ -2,10 +2,10 @@
   "name": "to_do_list_typescript",
   "version": "1.0.0",
   "description": "to-do list in typescript and angular",
-  "main": "app.ts",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc --sourcemap --out js/Application.js js/_all.ts"
+    "compile": "tsc --sourcemap --out js/app.js js/_all.ts"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "angular": "^1.6.9",
     "definitely-typed-angular": "^1.0.1",
+    "definitely-typed-jquery": "^1.0.0",
     "typescript": "^2.8.1"
   }
 }
